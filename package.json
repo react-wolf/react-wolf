@@ -1,0 +1,38 @@
+{
+  "name": "react-wolf",
+  "version": "1.0.0",
+  "description": "React components themed in the style of Wolfenstein: Enemy Territory and Return to Castle Wolfenstein",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "et",
+    "rtcw",
+    "wolf",
+    "wolfenstein",
+    "enemy",
+    "territory",
+    "return",
+    "to",
+    "castle",
+    "wolfenstein"
+  ],
+  "author": "Mads Boddum",
+  "license": "ISC",
+  "dependencies": {
+    "@storybook/cli": "^5.3.18",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0"
+  }
+}
