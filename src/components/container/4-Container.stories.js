@@ -7,11 +7,16 @@ export default {
   component: Container,
 };
 
-export const ContainerTitle = () => (
+export const Parent = () => (
   <Container title={'Container with a title'} variant={'parent'}>
-    <Text variant={'normal'}>You can place containers inside containers.</Text>
-    <Container title={'Subcontainer'} variant={'child'}>
-      <Text variant={'normal'}>Container-ception!</Text>
-    </Container>
+    <Text variant={'normal'}>Parent container</Text>
   </Container>
 );
+
+export const Child = () => (
+  <Container title={'Subcontainer'} variant={'child'}>
+    <Text variant={'normal'}>Child container</Text>
+  </Container>
+);
+
+
