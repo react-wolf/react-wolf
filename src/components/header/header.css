@@ -1,10 +1,10 @@
 .wolf-header-parent {
     padding: 8px;
-    background: linear-gradient(270deg, rgba(2,0,36,0) 0%, rgba(5,43,6,0.8281687675070029) 29%);
+    background: linear-gradient(270deg, rgba(2,0,36,0) 0%, rgba(61, 83, 62, 0.828) 29%);
 }
 
 /* If the header is placed inside another header, then remove the fade */
 .wolf-header-child {
     padding: 6px;
-    background: rgba(5,43,6,0.8281687675070029) !important;
+    background: rgba(61, 83, 62, 0.828) !important;
 }
