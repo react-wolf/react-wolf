@@ -1,0 +1,10 @@
+.wolf-header {
+    text-transform: uppercase;
+    color: lightgray;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,0) 0%, rgba(5,43,6,0.8281687675070029) 29%);
+    font-size: 24pt;
+    padding: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
