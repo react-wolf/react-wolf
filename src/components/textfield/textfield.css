@@ -1,0 +1,9 @@
+.wolf-text-field {
+    color: lightgray;
+    background-color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    border-width: 0;
+    width: 100%;
+    font-size: 12pt;
+    padding: 2px;
+}
