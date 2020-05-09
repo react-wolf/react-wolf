@@ -1,0 +1,21 @@
+.wolf-text-base {
+    color: lightgray;
+}
+
+.wolf-text-normal {
+    text-shadow: 2px 2px #000000;
+}
+
+.wolf-text-medium {
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.wolf-text-huge {
+    text-transform: uppercase;
+    font-size: 28pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}

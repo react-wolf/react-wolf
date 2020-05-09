@@ -1,0 +1,12 @@
+.wolf-container {
+    padding: 1px;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: lightgray;
+}
+
+.wolf-container-children {
+    padding: 8px;
+}

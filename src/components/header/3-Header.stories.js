@@ -6,8 +6,14 @@ export default {
   component: Header,
 };
 
-export const HeaderTest = () => (
-  <Header>
-    Title text
+export const Parent = () => (
+  <Header variant={'parent'}>
+    Parent text
+  </Header>
+);
+
+export const Child = () => (
+  <Header variant={'child'}>
+    Child text
   </Header>
 );
