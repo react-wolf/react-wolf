@@ -5,8 +5,11 @@ import './select.css';
 export default function Select(props) {
     const {label, onChange, options, preselectedIndex} = props;
     const [selectedIndex, setSelectedIndex] = useState(preselectedIndex || 0);
+    const audio = new Audio('https://github.com/react-wolf/react-wolf/raw/master/assets/sound/filter.wav');
 
     const onLeftClick = (e) => {
+        audio.play();
+
         var nextSelectedIndex = selectedIndex + 1;
 
         if (nextSelectedIndex >= options.length) {
@@ -18,6 +21,7 @@ export default function Select(props) {
     };
 
     const onRightClick = (e) => {
+        audio.play();
         e.preventDefault(); // We don't want a context menu appearring
         var nextSelectedIndex = selectedIndex - 1;
 
