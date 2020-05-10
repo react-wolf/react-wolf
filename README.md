@@ -14,6 +14,7 @@ react-wolf is a React library of components inspired by the video games Return t
 | `ListBox` | Missing |
 | `Notification` | Missing |
 | `Progress` | Missing |
+| `Scrollable` | Missing |
 | `Select` | Complete |
 | `Slider` | Missing |
 | `Table` | Missing |
