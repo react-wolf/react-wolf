@@ -12,11 +12,10 @@ react-wolf is a React library of components inspired by the video games Return t
 | `Dialog` | Missing |
 | `Header` | Complete |
 | `ListBox` | Missing |
-| `Message` | Missing |
+| `Notification` | Missing |
 | `Progress` | Missing |
 | `Select` | Complete |
+| `Slider` | Missing |
 | `Table` | Missing |
 | `Text` | Complete |
 | `TextField` | WIP |
-
-Sound effects are currently missing.
