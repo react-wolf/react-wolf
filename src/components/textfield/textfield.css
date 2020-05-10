@@ -6,4 +6,5 @@
     width: 100%;
     font-size: 12pt;
     padding: 2px;
+    cursor: unset;  /* We don't want to replace the default cursor with the text one */
 }
