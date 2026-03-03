@@ -23,7 +23,7 @@
   "author": "Mads Boddum",
   "license": "ISC",
   "dependencies": {
-    "@storybook/cli": "^5.3.18",
+    "@storybook/cli": "^10.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
